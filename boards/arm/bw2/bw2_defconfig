@@ -14,12 +14,15 @@ CONFIG_GPIO=y
 
 # Enable i2c
 # CONFIG_I2C=y
-CONFIG_SPI=n
+CONFIG_SPI=y
 
 # ZMK Settings
 CONFIG_ZMK_USB=y
 # CONFIG_ZMK_KSCAN_MATRIX_POLLING=y
 CONFIG_USB_SELF_POWERED=n
+
+# Input device support
+CONFIG_INPUT=y
 
 # Needed to reduce this to size that will fit on F072
 CONFIG_HEAP_MEM_POOL_SIZE=1024
