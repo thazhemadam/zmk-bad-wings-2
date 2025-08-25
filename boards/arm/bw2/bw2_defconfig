@@ -12,7 +12,7 @@ CONFIG_PINCTRL=y
 # enable GPIO
 CONFIG_GPIO=y
 
-# CONFIG_I2C=y
+CONFIG_I2C=n
 CONFIG_SPI=y
 
 # ZMK Settings
@@ -25,6 +25,8 @@ CONFIG_USB_SELF_POWERED=n
 # Input device support
 CONFIG_INPUT=y
 CONFIG_ZMK_MOUSE=y
+CONFIG_INPUT_CIRQUE_PINNACLE=y
+CONFIG_SPI_LOG_LEVEL_DBG=y
 CONFIG_PINCTRL_LOG_LEVEL_DBG=y
 
 # Needed to reduce this to size that will fit on F072

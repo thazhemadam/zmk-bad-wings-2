@@ -79,13 +79,9 @@
         status = "okay";
         dr-gpios = <&gpioa 3 GPIO_ACTIVE_HIGH>;
         
-        sensitivity = "2x";
+        sensitivity = "4x";
         sleep;
         no-taps;
-        
-        inertia;
-        inertia-start-velocity = <300>;
-        inertia-stop-velocity = <20>;
     };
 };
 
