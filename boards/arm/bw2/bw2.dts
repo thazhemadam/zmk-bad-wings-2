@@ -85,6 +85,13 @@
     };
 };
 
+/ {
+    glidepoint_input: glidepoint_input {
+        compatible = "zmk,input-listener";
+        device = <&glidepoint>;
+    };
+};
+
 
 &usb {
     status = "okay";
