@@ -14,7 +14,7 @@ CONFIG_GPIO=y
 
 # Enable i2c
 # CONFIG_I2C=y
-CONFIG_SPI=n
+CONFIG_SPI=y
 
 # ZMK Settings
 CONFIG_ZMK_USB=y
